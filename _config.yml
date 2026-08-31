@@ -1,0 +1,29 @@
+title: "Si Qin Huang"
+description: "Personal website of Si Qin Huang"
+url: "https://s-huang23.github.io"
+baseurl: ""
+
+author:
+  name: "Si Qin Huang"
+  title: "Master of Data Science student at Rice University"
+  email: "siqinhuang23@gmail.com"
+  github: "s-huang23"
+  linkedin: "si-qin-huang"
+  location: "Houston, TX"
+
+navigation:
+  - title: About
+    url: /
+  - title: Resume
+    url: /resume/
+
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
