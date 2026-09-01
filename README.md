@@ -27,5 +27,5 @@ Then open http://localhost:4000/
 
 - **About page**: [index.md](index.md)
 - **Resume**: PDF at [assets/files/Si-Qin-Huang-Resume.pdf](assets/files/Si-Qin-Huang-Resume.pdf), embedded/downloadable via [resume.md](resume.md) — replace the PDF file to update
-- **Contact / site info**: [_config.yml](_config.yml) (`author` block — name, email, github, linkedin, location)
-- **Styling**: [assets/css/main.css](assets/css/main.css)
+- **Contact / site info**: [_config.yml](_config.yml) (`author` block — name, email, github, linkedin, location); social icons render from [_includes/social.html](_includes/social.html)
+- **Styling**: [assets/css/main.css](assets/css/main.css) — colors, type scale, and the reading-width measure are all CSS custom properties at the top of the file

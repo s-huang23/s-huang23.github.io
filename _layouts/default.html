@@ -3,9 +3,9 @@
 <head>
 {% include head.html %}
 </head>
-<body>
+<body class="site-body">
 {% include header.html %}
-<main class="wrap">
+<main class="wrap{% if page.wide %} wide{% endif %}">
   {{ content }}
 </main>
 {% include footer.html %}
